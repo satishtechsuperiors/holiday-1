@@ -165,15 +165,11 @@ body {
 }
 
 .img-main img {
-    width: 100%;
+    width: 190%;
     height: 220px;
-    transition: width 2s, height 2s;
 }
 
-.img-main img:hover {
-    width: 190%;
-    height: 230px;
-}
+
 
 .locations {
     display: flex;
@@ -336,7 +332,7 @@ body {
 
 .about {
     display: flex;
-    width: 70%;
+    width: 150%;
 }
 
 .destinations {
@@ -381,7 +377,7 @@ footer {
 }
 
 .about div:last-child {
-    width: 40%;
+    width: 45%;
 }
 
 .destinations div {
