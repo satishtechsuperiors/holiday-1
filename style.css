@@ -418,27 +418,7 @@ footer {
         display: block;
     }
 
-    .hidme:checked ~ .about-nav {
-        display: block;
-        position: absolute;
-        left: 23px;
-        top: 31%;
-        animation-name: bar;
-        animation-duration: 0.1s;
-        z-index: 1;
-    }
-
-    @keyframes bar {
-        0% {
-            left: -20px;
-            top: 31%;
-        }
-
-        100% {
-            left: 0;
-            top: 31%;
-        }
-    }
+    
    
     .about-nav a{
         display: block;
@@ -450,6 +430,10 @@ footer {
     }
 
     
+
+     .about-nav{
+        display: block;
+     }
 
 
     .nav {
