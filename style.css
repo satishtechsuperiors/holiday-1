@@ -408,8 +408,8 @@ footer {
     .navbar img {
         position: absolute;
         margin-top: -4px;
-        width: 30px;
-        height: 20px;
+        width: 52px;
+        height: 32px;
     }
 
     .hidme:checked~.nav {
@@ -422,9 +422,9 @@ footer {
         background-color: white;
         border-radius: 10px;
         width: 70%;
-        height: 350px;
+        height: 80%;
         left: 0;
-        top: 20px;
+        top: 30px;
         animation-name: navbar;
         animation-duration: 2s;
         z-index: 1;
@@ -445,7 +445,7 @@ footer {
     .nav div a {
         font-size: 0.9rem;
         display: block;
-        padding: 13% 1%;
+        padding: 23% 1%;
 
     }
 
