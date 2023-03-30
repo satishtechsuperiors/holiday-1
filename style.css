@@ -385,7 +385,9 @@ footer {
 }
 
 
-
+.about-nav{
+    display: none;
+}
 
 
 
@@ -416,6 +418,39 @@ footer {
         display: block;
     }
 
+    .hidme:checked ~ .about-nav {
+        display: block;
+        position: absolute;
+        left: 23px;
+        top: 31%;
+        animation-name: bar;
+        animation-duration: 0.1s;
+        z-index: 1;
+    }
+
+    @keyframes bar {
+        0% {
+            left: -20px;
+            top: 31%;
+        }
+
+        100% {
+            left: 0;
+            top: 31%;
+        }
+    }
+   
+    .about-nav a{
+        display: block;
+        font-size: 1.2rem;
+        padding: 11px;
+    }
+    .about-nav p{
+        font-size: 1.6rem;
+    }
+
+    
+
 
     .nav {
         position: absolute;
@@ -424,9 +459,9 @@ footer {
         width: 70%;
         height: 80%;
         left: 0;
-        top: 30px;
+        top: 32px;
         animation-name: navbar;
-        animation-duration: 2s;
+        animation-duration: 1s;
         z-index: 1;
     }
 
@@ -445,7 +480,7 @@ footer {
     .nav div a {
         font-size: 0.9rem;
         display: block;
-        padding: 23% 1%;
+        padding: 4% 1%;
 
     }
 
