@@ -178,7 +178,7 @@ body {
 .thalie {
     display: flex;
     background-color: white;
-    width: 50%;
+    width: 49%;
     margin: 0.5%;
 }
 
@@ -515,7 +515,6 @@ footer {
 
     .locations {
         display: block;
-        width: 100%;
     }
 
     .thalie {
@@ -650,9 +649,4 @@ footer {
         font-size: 1.6rem;
         margin-left: 6%;
     }
-
- 
-
-
-
 }
