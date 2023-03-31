@@ -377,9 +377,6 @@ footer {
     font-size: small;
     margin: -4px;
 }
-.about div {
-    width: 20%;
-}
 .about div:last-child {
     width: 45%;
 }
@@ -388,6 +385,16 @@ footer {
 }
 .about-nav{
     display: none;
+}
+.info{
+    display: flex;
+    width: 40%;
+}
+.info div{
+    width: 50%;
+}
+.thems{
+    width: 20%;
 }
 
 
@@ -611,9 +618,17 @@ footer {
         display: block;
         width: 100%;
     }
+    .thems p{
+        font-size: 2.2rem;
+    }
+    .thems a{
+        font-size: 1.2rem;
+    }
 
     .destinations {
         display: block;
+        display: flex;
+        margin-left: 2%;
     }
 
     footer {
@@ -636,12 +651,12 @@ footer {
     }
 
     .about div {
-        width: 100%;
-        padding-left: 4%;
+        width: 110%;
     }
 
     .about div:last-child {
         width: 100%;
+        margin-left: 5%;
     }
 
     .destinations div {
@@ -650,19 +665,19 @@ footer {
     }
 
     .about p {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
     }
 
     .address div p {
         text-align: left;
-        font-size: 1.2rem;
-        margin-left: 6%;
+        font-size: 1.4rem;
+        margin-left: 3%;
         padding: 2% 1px;
     }
     .address div h5 {
         text-align: left;
-        font-size: 1.6rem;
-        margin-left: 6%;
+        font-size: 1.8rem;
+        margin-left: 3%;
     }
 }
 /* 
