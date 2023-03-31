@@ -166,7 +166,7 @@ body {
 
 .img-main img {
     width: 190%;
-    height: 220px;
+    height: 190px;
 }
 
 .locations {
@@ -198,10 +198,12 @@ body {
 
 .thalie-content h2 {
     font-size: 2rem;
+    margin: 0%;
 }
 
 .thalie-content {
     background-color: white;
+    padding: 4% 0;
 }
 
 .thalie-content p {
@@ -532,7 +534,7 @@ footer {
     }
 
     .thalie-content {
-        padding-left: 3%;
+        padding: 3%;
     }
 
     .thalie-content img {
