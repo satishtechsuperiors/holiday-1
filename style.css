@@ -10,6 +10,7 @@
 
 body {
     background-image: linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%);
+    overflow-x: hidden;
 }
 
 .nav {
