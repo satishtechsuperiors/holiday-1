@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: novah;
+    font-family: Proxima;
     src: url(./img/novah.ttf);
 }
 
@@ -43,7 +43,7 @@ body {
 
 .land img {
     width: 100%;
-    height: 450px;
+    height: 500px;
 }
 
 
@@ -55,18 +55,17 @@ body {
     font-size: 2.5rem;
     color: #ffffff;
     font-weight: bold;
-    font-family: novah;
 }
 
 .mauritius {
     position: absolute;
-    top: 400px;
+    top: 475px;
     left: 200px;
     display: flex;
     width: 70%;
     border: 2px solid white;
     background-color: #ffffff;
-    padding: 3.5% 0;
+    padding: 2% 0;
 }
 
 .mauritius div {
@@ -116,10 +115,10 @@ body {
 }
 
 .vacation-cart {
-    width: 100%;
-    margin-top: 2%;
+    width: 85%;
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 
 .beachfront {
@@ -129,21 +128,21 @@ body {
 
 .vacation-cart div img {
     width: 100%;
-    height: 200px;
+    height: 270px;
 }
 
 .escapes {
     position: absolute;
     width: 70%;
     background-color: white;
-    top: 100px;
-    left: 50px;
-    padding: 15px 10px;
+    top: 153px;
+    left: 40px;
+    padding: 10px;
 }
 
 .escapes div {
     border: 1px solid;
-    padding: 3% 0;
+    padding: 5% 0;
 }
 
 .escapes div span {
@@ -153,6 +152,7 @@ body {
 
 .holidays-locations-heading {
     text-align: center;
+    padding-bottom: 3%;
 }
 
 .holidays-locations-heading i {
@@ -169,19 +169,16 @@ body {
     height: 220px;
 }
 
-
-
 .locations {
     display: flex;
-    width: 100%;
-    justify-content: center;
-
+    width: 82%;
+    margin: auto;
 }
 
 .thalie {
     display: flex;
     background-color: white;
-    width: 45%;
+    width: 50%;
     margin: 0.5%;
 }
 
@@ -263,9 +260,11 @@ body {
 }
 
 .different-cart {
+    margin: auto;
     display: flex;
     text-align: center;
-    margin-top: 30px;
+    width: 86%;
+    padding-top: 5%;
 }
 
 .different-cart i {
@@ -310,7 +309,6 @@ body {
     border-bottom: 1px solid;
     margin-right: 10%;
 }
-
 .contect-us button {
     background-color: red;
     color: white;
@@ -319,32 +317,27 @@ body {
     border-radius: 20px;
     margin: 15% 0%;
 }
-
 .contect-us h3 {
     font-size: 1.6rem;
 }
-
 .about a {
     display: block;
     font-size: 0.7rem;
     padding: 4px;
+    letter-spacing: 0.1em;
 }
-
 .about {
     display: flex;
     width: 150%;
 }
-
 .destinations {
     display: flex;
 }
-
 footer {
     background-color: #171d1c;
     margin-top: -5px;
     padding: 25px 0;
 }
-
 .footer {
     display: flex;
     width: 80%;
@@ -352,46 +345,34 @@ footer {
 
     color: #ffffff;
 }
-
 .address {
     width: 30%;
     margin-top: 15px;
     margin: 25px 25px 0 0;
 
 }
-
 .address div h5 {
     text-align: right;
     font-size: 1rem;
     margin: 20px 6px 5px 0px;
 }
-
 .address div p {
     text-align: right;
     font-size: small;
-    margin: -2px;
+    margin: -4px;
 }
-
 .about div {
     width: 20%;
 }
-
 .about div:last-child {
     width: 45%;
 }
-
 .destinations div {
     width: 120%;
 }
-
-
 .about-nav{
     display: none;
 }
-
-
-
-
 
 
 
@@ -443,7 +424,7 @@ footer {
         width: 70%;
         height: 80%;
         left: 0;
-        top: 32px;
+        top: 30px;
         animation-name: navbar;
         animation-duration: 1s;
         z-index: 1;
@@ -452,12 +433,12 @@ footer {
     @keyframes navbar {
         0% {
             left: -20px;
-            top: 20px;
+            top: 30px;
         }
 
         100% {
             left: 0;
-            top: 20px;
+            top: 30px;
         }
     }
 
@@ -516,6 +497,9 @@ footer {
         width: 10px;
         height: 10px;
     }
+    .vacation{
+        margin-top: 15%;
+    }
 
     .vacation-cart {
         width: 100%;
@@ -529,6 +513,7 @@ footer {
 
     .locations {
         display: block;
+        width: 100%;
     }
 
     .thalie {
@@ -543,6 +528,7 @@ footer {
 
     .img-demo img {
         height: 75px;
+        width: 33.33%;
     }
 
     .thalie-content {
@@ -571,6 +557,7 @@ footer {
 
     .different-cart {
         display: block;
+        width: 100%;
     }
 
     .different-cart div {
@@ -583,7 +570,7 @@ footer {
 
     .massage img {
         width: 100%;
-        height: 300px;
+        height: 370px;
     }
 
     .contect-us {
@@ -599,9 +586,9 @@ footer {
 
 
     .about a {
-        /* display: inline; */
         font-size: 1.1rem;
         padding: 7px;
+        letter-spacing: 0.1em;
     }
 
     .about {
@@ -621,22 +608,21 @@ footer {
     }
 
     .footer {
-        margin-top: 30%;
+        margin-top: -7%;
         display: block;
         width: 100%;
         color: white;
+        padding-top: 4%;
     }
 
     .address {
         width: 100%;
         padding: 50px 0;
-        /* margin: 3px 25px; */
     }
 
     .about div {
         width: 100%;
         padding-left: 4%;
-        /* text-align: center; */
     }
 
     .about div:last-child {
@@ -645,26 +631,23 @@ footer {
 
     .destinations div {
         width: 100%;
-        margin-left: -4%;
+        margin-left: -8%;
     }
 
     .about p {
         font-size: 1.6rem;
-        /* margin: 19% 5% 5% 5%; */
-
     }
 
     .address div p {
         text-align: left;
         font-size: 1.2rem;
-        margin-left: 4%;
-        /* margin: 3px 43px; */
+        margin-left: 6%;
+        padding: 2% 1px;
     }
     .address div h5 {
         text-align: left;
         font-size: 1.6rem;
-        margin-left: 4%;
-        /* margin: 52px 0 5px 43px; */
+        margin-left: 6%;
     }
 
  
