@@ -412,6 +412,44 @@ footer {
 
 
 
+
+@media screen and (max-device-width: 1030px){
+ 
+    .nav div:nth-child(3) a{
+        font-size: 30px;
+    }
+    .nav div {
+        margin-left: 4%;
+    }
+    .land h2{
+        left: 164px;
+    }
+    .mauritius{
+        left: 110px;
+    }
+    .beachfront {
+        width: 32%;
+    }
+    .vacation-cart{
+        width: 100%;
+    }
+    .escapes{
+        left: 25px;
+    }
+    .locations{
+        width: 100%;
+    }
+    .different-cart{
+        width: 100%;
+    }
+    .footer{
+        width: 90%;
+    }
+}
+
+
+
+
 @media screen and (max-device-width: 550px) {
 
     .nav {
@@ -691,37 +729,3 @@ footer {
         margin-left: 3%;
     }
 }
-/* 
-@media screen and (max-device-width: 1030px){
- 
-    .nav div:nth-child(3) a{
-        font-size: 30px;
-    }
-    .nav div {
-        margin-left: 4%;
-    }
-    .land h2{
-        left: 164px;
-    }
-    .mauritius{
-        left: 110px;
-    }
-    .beachfront {
-        width: 32%;
-    }
-    .vacation-cart{
-        width: 100%;
-    }
-    .escapes{
-        left: 25px;
-    }
-    .locations{
-        width: 100%;
-    }
-    .different-cart{
-        width: 100%;
-    }
-    .footer{
-        width: 90%;
-    }
-} */
