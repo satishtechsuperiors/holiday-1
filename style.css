@@ -435,6 +435,27 @@ footer {
     .escapes{
         left: 25px;
     }
+    .address{
+        width: 45%;
+    }
+    .thalie-content h2{
+        font-size: 1.4rem;
+    }
+    .escapes div span{
+        font-size: 1.1rem;
+    }
+    .img-main img{
+        height: 160px;
+    }
+    .thalie-content p{
+        margin: 0px;
+    }
+    /* .thalie-content span {
+        margin: 0px;
+    }
+    .thalie-content img{
+        margin: 0px;
+    } */
     .locations{
         width: 100%;
     }
