@@ -433,7 +433,7 @@ footer {
         width: 100%;
     }
     .escapes{
-        left: 25px;
+        left: 45px;
     }
     .address{
         width: 45%;
@@ -448,7 +448,7 @@ footer {
         height: 160px;
     }
     .thalie-content p{
-        margin: 0px;
+        margin-right: 6%;
     }
     /* .thalie-content span {
         margin: 0px;
@@ -668,8 +668,8 @@ footer {
     .contect-us {
         width: 71%;
         position: absolute;
-        top: 30%;
-        left: 14%;
+        top: 16%;
+        left: 16%;
         background-color: white;
         padding: 1% 2%;
     }
@@ -701,9 +701,8 @@ footer {
     }
 
     footer {
-
         background-color: #171d1c;
-        margin-top: 20%;
+        margin-top: 6%;
         padding: 0px;
     }
 
