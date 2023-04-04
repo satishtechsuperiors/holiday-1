@@ -22,6 +22,7 @@
 body {
     background-image: linear-gradient(0deg, #d7d7d7 0%, #ffffff 100%);
 }
+/* navbar section  */
 
 .nav {
     display: flex;
@@ -31,12 +32,19 @@ body {
 .nav div {
     margin-left: 9%;
 }
+.nav div a:hover{
+    font-size: 1.1rem;
+}
 
 .nav div:nth-child(3) a {
     font-size: 36px;
     line-height: 21px;
     color: #171d1c;
     font-family: myfont;
+}
+
+.nav div:nth-child(3) a:hover {
+    font-size: 40px;
 }
 
 .humburger {
@@ -51,6 +59,9 @@ body {
     display: none;
     z-index: 1;
 }
+
+
+/* ENJOY FREEDOM LAND section  */
 
 .land img {
     width: 100%;
@@ -107,6 +118,8 @@ body {
     color: white;
 }
 
+
+/* See latest vacation ideas section  */
 .vacation {
     margin-top: 8%;
     text-align: center;
@@ -145,7 +158,13 @@ body {
     width: 100%;
     height: 270px;
 }
+.vacation-cart div img:hover {
+    width: 102%;
+    height: 273px;
+}
 
+
+/* Recent Holidays locations section  */
 .escapes {
     position: absolute;
     width: 70%;
@@ -183,6 +202,10 @@ body {
     width: 190%;
     height: 190px;
 }
+.img-main img:hover {
+    width: 192%;
+    height: 192px;
+}
 
 .locations {
     display: flex;
@@ -209,6 +232,11 @@ body {
     width: 63%;
     height: 60px;
     margin-top: -5px;
+}
+.img-demo img:hover {
+    width: 64%;
+    height: 63px;
+    margin-top: -3px;
 }
 
 .thalie-content h2 {
@@ -251,10 +279,11 @@ body {
 }
 
 .thalie-content button:hover {
-    padding: 3.5% 8%;
     background-color: #2abe81;
 }
 
+
+/* Why we are different section  */
 .different-headding {
     text-align: center;
 }
@@ -304,6 +333,10 @@ body {
     margin: 0px 8%;
     font-size: smaller;
 }
+
+
+
+/* message section  */
 
 .massage {
     width: 100%;
@@ -360,6 +393,9 @@ body {
 .destinations {
     display: flex;
 }
+
+
+/* footer section  */
 footer {
     background-color: #171d1c;
     margin-top: -5px;
